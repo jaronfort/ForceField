@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+
+# Direct all requests to "index.php"
+RewriteRule . index.php [L,QSA]
